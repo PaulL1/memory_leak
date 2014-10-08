@@ -24,9 +24,9 @@ angular
         templateUrl: 'views/noGrid.html',
         controller: 'NoGridCtrl'
       })
-      .when('/grid', {
-        templateUrl: 'views/grid.html',
-        controller: 'GridCtrl'
+      .when('/gridNoOptions', {
+        templateUrl: 'views/gridNoOptions.html',
+        controller: 'GridNoOptionsCtrl'
       })
       .otherwise({
         redirectTo: '/'

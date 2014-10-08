@@ -8,7 +8,7 @@
  * Controller of the memoryLeakApp
  */
 angular.module('memoryLeakApp')
-  .controller('GridCtrl', function ($scope) {
+  .controller('GridNoOptionsCtrl', function ($scope) {
     
     $scope.gridOptions = {
       columnDefs: [ { name: 'col1' }, { name: 'col2' } ],
